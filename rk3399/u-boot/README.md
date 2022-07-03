@@ -1,5 +1,1 @@
----
-sort: 1
----
-
-# u-boot dev log
+# u-boot
