@@ -1,6 +1,10 @@
 ---
-sort: 1jz Dev Documentation
+sort: 1
 ---
+
+```
+{% raw %}{% include list.liquid all=true %}{% endraw %}
+```
 
 # jz2440 Dev Documentation
 
