@@ -2,11 +2,17 @@
 sort: 1
 ---
 
-# jz2440 QT代码分析
+# jz2440 u-boot代码分析
 
 
 
-## u-boot
+## u-boot移植
+
+### 参考资料
+
+[移植u-boot-2016.11到JZ2440](https://blog.csdn.net/qq_36576792/article/details/86713860)
+
+
 
 
 
