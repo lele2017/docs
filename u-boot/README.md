@@ -2,5 +2,5 @@
 sort: 1
 ---
 
-# u-boot Dev Documentation
+# u-boot Dev Doc
 
