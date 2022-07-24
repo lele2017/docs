@@ -68,3 +68,49 @@ storage init OK!
 Using default environment
 ```
 
+### 进入loader时Log
+
+```shell
+Reserve memory for trust os.
+dram reserve bank: base = 0x08400000, size = 0x01200000
+128 MiB
+SdmmcInit = 0 20
+mmc: ERROR: sdhci_complete_adma: transfer error, stat 0x408000, adma error 0x0, retry 9994912, cmd 0x83a
+mmc: ERROR: sdhci_complete_adma: transfer error, stat 0x408000, adma error 0x0, retry 9994913, cmd 0x83a
+SdhciInit3 Error!
+storage init fail!
+Using default environment
+
+read_env failed at 0
+Writing env to storage... 
+write_env failed at 0
+failed
+GetParam
+read parameter fail
+No pmic detect.
+SecureBootEn = 0, SecureBootLock = 0
+empty serial no.
+Writing env to storage... 
+write_env failed at 0
+failed
+normal boot.
+checkKey
+vbus = 1
+no fuel gauge found
+no fuel gauge found
+read logo on state from dts [0]
+no fuel gauge found
+misc partition not found!
+Hit any key to stop autoboot:  0 
+'boot' does not seem to be a partition nor an address
+Unable to boot:boot
+try to start recovery
+'recovery' does not seem to be a partition nor an address
+Unable to boot:recovery
+try to start backup
+'backup' does not seem to be a partition nor an address
+Unable to boot:backup
+try to start rockusb                                            (1)
+```
+
+(1) board/rockchip/common/rkboot/fastboot.c:268:    printf("try to start rockusb\n");

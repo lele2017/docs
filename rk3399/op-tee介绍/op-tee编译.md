@@ -17,3 +17,5 @@ make PLATFORM=rockchip CFG_TEE_CORE_LOG_LEVEL=4 DEBUG=0
 
 
 ## 链接分析
+
+core/arch/arm/kernel/kern.ld.S

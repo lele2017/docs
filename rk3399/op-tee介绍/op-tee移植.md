@@ -1,5 +1,9 @@
 ## 配置文件
 
+### 当前镜像所用配置文件
+
+out/arm-plat-rockchip/include/generated/conf.h
+
 #### core\arch\arm\plat-rockchip\platform_config.h
 
 ```c
@@ -167,6 +171,27 @@ endif
 ```
 
 ## 配置项
+
+### CFG_TEE_LOAD_ADDR
+
+![image-20220724124335537](op-tee移植.assets/image-20220724124335537.png)
+
+core/arch/arm/include/mm/generic_ram_layout.h
+
+#### 源码调用处：
+
+core/arch/arm/plat-rockchip/psci_rk322x.c
+
+```c
+int psci_cpu_on(uint32_t *core_idx, uint32_t* *entry, uint32_t *context_id)
+{
+    ...
+	io_write32(isram_base + BOOT_ADDR_OFFSET, TEE_LOAD_ADDR);
+    ...
+}
+```
+
+
 
 ### CFG_EARLY_CONSOLE
 
