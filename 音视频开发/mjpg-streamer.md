@@ -13,7 +13,7 @@ sudo make install
 ## arm环境(raspberry)安装mjpg-streamer
 
 ```
-su lj
+cd ~/mjpg-streamer/mjpg-streamer-experimental
 ```
 
 ## pc上访问：
