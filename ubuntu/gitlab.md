@@ -2,4 +2,4 @@
 
 ##### 默认repositories目录
 
-**/var/opt/gitlab/git-data/repositories/**
+> /var/opt/gitlab/git-data/repositories/
