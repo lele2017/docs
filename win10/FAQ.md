@@ -1,7 +1,5 @@
 ## 常见问题
 
-[TOC]
-
 ## github.com上传下载
 
 git下载ssh链接代码:
