@@ -44,3 +44,8 @@ https://www.emqx.io/zh/downloads?os=Ubuntu
 
 
 
+# mqtt实例
+
+## [Qt开发MQTT（一） 之Qt官方Qt MQTT](https://blog.csdn.net/luoyayun361/article/details/104671603)
+
+## [Qt加载MQTT库的方法，以及实现MQTT通信的例子（发布订阅均测试成功）](https://blog.csdn.net/qq_40754866/article/details/105630734)
