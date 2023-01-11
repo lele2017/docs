@@ -2,6 +2,6 @@
 sort: 1
 ---
 
-# jz2440 Dev Log
+# jz2440
 
 
